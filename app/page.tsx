@@ -1,10 +1,19 @@
-import {Button} from "@/components/ui/button"
-import Hero from "./_components/Hero";
-
-export default function Home() {
+function Home() {
   return (
-    <div>
-      
+    <div className="mt-24 w-full flex justify-center">
+      {/* Content */}
+      <div className="max-w-3xl w-full text-center">
+        <h1 className="text-xl md:text-5xl font-bold">
+          Hey, I'm your personal <span className="text-primary">Trip Planner</span>
+        </h1>
+      </div>
+
+      {/* Input Box */}
+
+      {/* Suggestion List */}
+
+      {/* Video Section */}
     </div>
   );
 }
+export default Home;

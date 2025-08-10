@@ -3,10 +3,8 @@ import { Outfit } from "next/font/google";
 import Provider from "./provider";
 import "./globals.css";
 
-
-
 const outfit = Outfit({
-  variable: "--font-geist-mono",
+  variable: "--font-outfit", 
   subsets: ["latin"],
 });
 
@@ -23,7 +21,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body
-        className={`${outfit.variable} antialiased`}
+        className={`${outfit.className}`}
       >
         <Provider>
           {children}
